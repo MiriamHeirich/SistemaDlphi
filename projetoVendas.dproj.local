@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/06/09 14:34:45.000.187,=C:\Users\Bsoft\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/09 14:39:20.000.154,C:\Users\Bsoft\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Projeto_Delphi\uPrincipal.dfm</Transaction>
+    <Transaction>2022/06/09 14:39:20.000.154,C:\Users\Bsoft\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Projeto_Delphi\uPrincipal.pas</Transaction>
+    <Transaction>2022/06/09 14:40:39.000.732,C:\Users\Bsoft\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Bsoft\Documents\Embarcadero\Studio\Projects\Vendas.dproj</Transaction>
+    <Transaction>2022/06/09 14:47:03.000.047,C:\Users\Bsoft\Documents\Embarcadero\Studio\Projects\Vendas.dproj=C:\Projeto_Delphi\Vendas.dproj</Transaction>
+    <Transaction>2022/06/09 14:49:11.000.611,=C:\Projeto_Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/09 14:50:14.000.381,C:\Projeto_Delphi\Unit1.pas=C:\Projeto_Delphi\DataModule\uDTMConexao.pas</Transaction>
+    <Transaction>2022/06/09 14:50:14.000.381,C:\Projeto_Delphi\Unit1.dfm=C:\Projeto_Delphi\DataModule\uDTMConexao.dfm</Transaction>
+    <Transaction>2022/06/09 14:54:39.000.060,C:\Projeto_Delphi\Vendas.dproj=C:\Projeto_Delphi\projetoVendas.dproj</Transaction>
+    <Transaction>2022/06/09 15:08:56.000.648,=C:\Projeto_Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/09 15:09:43.000.115,C:\Projeto_Delphi\Unit1.pas=C:\Projeto_Delphi\Heranca\utTlaHeranca.pas</Transaction>
+    <Transaction>2022/06/09 15:09:43.000.115,C:\Projeto_Delphi\Unit1.dfm=C:\Projeto_Delphi\Heranca\utTlaHeranca.dfm</Transaction>
+    <Transaction>2022/06/09 15:47:36.000.018,=C:\Projeto_Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/09 15:48:29.000.534,C:\Projeto_Delphi\Unit1.pas=C:\Projeto_Delphi\Heranca\uCadCategoria.pas</Transaction>
+    <Transaction>2022/06/09 15:48:29.000.534,C:\Projeto_Delphi\Unit1.dfm=C:\Projeto_Delphi\Heranca\uCadCategoria.dfm</Transaction>
+    <Transaction>2022/06/14 09:14:02.000.300,=C:\Projeto_Delphi\Enter\Enter.pas</Transaction>
+    <Transaction>2022/06/14 09:45:33.000.956,=C:\Users\Bsoft\Downloads\curso_delphi-master\curso_delphi-master\terceiros\Enter.pas</Transaction>
+    <Transaction>2022/06/14 11:01:45.000.747,=C:\Projeto_Delphi\Unit1.pas</Transaction>
+    <Transaction>2022/06/14 11:02:05.000.497,C:\Projeto_Delphi\Unit1.pas=C:\Projeto_Delphi\Heranca\uEnum.pas</Transaction>
+  </Transactions>
+</BorlandProject>

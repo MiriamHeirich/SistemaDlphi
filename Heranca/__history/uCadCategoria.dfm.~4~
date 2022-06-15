@@ -1,0 +1,66 @@
+inherited frmCadCategoria: TfrmCadCategoria
+  Caption = 'Cadastro de Categorias'
+  ClientWidth = 939
+  ExplicitWidth = 945
+  PixelsPerInch = 96
+  TextHeight = 13
+  inherited pgcPrincipal: TPageControl
+    Width = 939
+    ActivePage = tabListagem
+    ExplicitWidth = 939
+    inherited tabListagem: TTabSheet
+      ExplicitWidth = 931
+      object Label1: TLabel
+        Left = 88
+        Top = 24
+        Width = 46
+        Height = 13
+        Caption = 'Descri'#231#227'o'
+        FocusControl = DBEdit1
+      end
+      object DBEdit1: TDBEdit
+        Left = 88
+        Top = 40
+        Width = 394
+        Height = 21
+        DataField = 'descricao'
+        DataSource = DataSource1
+        TabOrder = 0
+      end
+    end
+    inherited tabManutencao: TTabSheet
+      ExplicitWidth = 931
+      inherited pnlListagemtopo: TPanel
+        Width = 931
+        ExplicitWidth = 931
+      end
+    end
+  end
+  inherited pnlRodape: TPanel
+    Width = 939
+    ExplicitWidth = 939
+    inherited btnNavigator: TDBNavigator
+      Hints.Strings = ()
+    end
+  end
+  inherited qryListagem: TZQuery
+    Active = True
+    SQL.Strings = (
+      'SELECT  categoriaId, descricao FROM categoria')
+    object qryListagemcategoriaId: TLargeintField
+      DisplayLabel = 'C'#243'digo'
+      FieldName = 'categoriaId'
+      Required = True
+    end
+    object qryListagemdescricao: TWideStringField
+      DisplayLabel = 'Descri'#231#227'o'
+      FieldName = 'descricao'
+      Size = 30
+    end
+  end
+  object DataSource1: TDataSource
+    DataSet = qryListagem
+    Left = 456
+    Top = 256
+  end
+end

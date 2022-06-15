@@ -1,0 +1,50 @@
+unit Unit10;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, ZAbstractConnection, dtmConexao,
+  ZConnection;
+
+type
+  TfrmPrincipal = class(TForm)
+    MainPrincipal: TMainMenu;
+    Cadastro1: TMenuItem;
+    Cadastro2: TMenuItem;
+    Relatrios1: TMenuItem;
+    Cliente1: TMenuItem;
+    N1: TMenuItem;
+    N2: TMenuItem;
+    Categoria1: TMenuItem;
+    Categoria2: TMenuItem;
+    N3: TMenuItem;
+    menuFechar: TMenuItem;
+    Vendas1: TMenuItem;
+    Cliente2: TMenuItem;
+    N4: TMenuItem;
+    Produto1: TMenuItem;
+    Fechar2: TMenuItem;
+    N6: TMenuItem;
+    VendaporData1: TMenuItem;
+    dtmConexao: TZConnection;
+    procedure menuFecharClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmPrincipal.menuFecharClick(Sender: TObject);
+begin
+  Close;
+end;
+
+end.

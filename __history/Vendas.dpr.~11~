@@ -1,0 +1,21 @@
+program Vendas;
+
+uses
+  Vcl.Forms,
+  Unit10 in 'Unit10.pas' {frmPrincipal},
+  uDTMConexao in 'uDTMConexao.pas' {dtmConexao: TDataModule},
+  uTelaHeranca in 'Heranca\uTelaHeranca.pas' {frmTelaHeranca},
+
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmPrincipal, frmPrincipal);
+  Application.CreateForm(TdtmConexao, dtmConexao);
+  Application.CreateForm(TfrmTelaHeranca, frmTelaHeranca);
+  Application.CreateForm(TfrmHerancaTela, frmHerancaTela);
+  Application.Run;
+  END;
+end.
